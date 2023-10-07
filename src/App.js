@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-
+import dictionary from "./dictionary.js";
 import "./Dictionary.css";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <div className="container">
         <main>
-          <Dictionary />
+          <dictionary />
         </main>
         <footer className="footer">
           <a

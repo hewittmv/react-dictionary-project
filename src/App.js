@@ -1,14 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
-
-import "./Dictionary.css";
+import Search from "./Search";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
         <main>
-          <Dictionary />
+          <Search />
         </main>
         <footer className="footer">
           <a

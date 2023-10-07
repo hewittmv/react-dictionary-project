@@ -5,6 +5,9 @@ function App() {
   return (
     <div className="App">
       <div className="container">
+        <main>
+          <dictionary />
+        </main>
         <footer className="footer">
           <a
             className="github-link"

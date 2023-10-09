@@ -9,7 +9,7 @@ export default function Search() {
 
   function handleResponse(response) {
     console.log(response.data);
-    setResults(response.data[0]);
+    setResults(response.data);
   }
 
   function Search(event) {

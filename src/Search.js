@@ -25,7 +25,7 @@ export default function Search() {
     <div className="Search">
       Dictionary
       <form onSubmit={Search}>
-        <input type="Search" autofocus="true" onChange={handleKeywordChange} />
+        <input type="Search" autoFocus="true" onChange={handleKeywordChange} />
         <input type="submit" value="Look It Up" />
       </form>
       <Results results={results} />

@@ -6,7 +6,7 @@ export default function results(props) {
     return (
       <div className="results">
         <h2>{props.results.word}</h2>
-        {props.results.meaning.map(function (meaning, index) {
+        {props.results.meanings.map(function (meaning, index) {
           return (
             <div key={index}>
               <Meaning meaning={meaning} />

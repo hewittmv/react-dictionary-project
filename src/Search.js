@@ -2,19 +2,18 @@ import React, { useState } from "react";
 import "./Search.css";
 import axios from "axios";
 import Results from "./Results";
-import PhoneticAudio from "./PhoneticAudio";
 
 export default function Search() {
   let [keyword, SetKeyword] = useState("");
   let [results, setResults] = useState(null);
-  let [phoneticAudio, setPhoneticAudio] = useState(null);
+  let [results1, setResults1] = useState(null);
 
   function handleResponse(response) {
     console.log(response.data);
     setResults(response.data);
   }
   function handleAudioResponse(response) {
-    setPhoneticAudio(response.data[0]);
+    setResults1(response.data[0]);
   }
 
   function Search(event) {
@@ -34,8 +33,7 @@ export default function Search() {
         <input type="Search" autoFocus="true" onChange={handleKeywordChange} />
         <input type="submit" value="Look It Up" />
       </form>
-      <Results results={results} />
-      <PhoneticAudio audio={phoneticAudio} />
+      <Results results={results} results1={results1} />
     </div>
   );
 }

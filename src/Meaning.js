@@ -1,6 +1,6 @@
 import React from "react";
-import "./Synonym";
-import "./Example";
+import Synonym from "./Synonym";
+import Example from "./Example";
 
 export default function Meaning(props) {
   if (props.meaning) {

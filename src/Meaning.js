@@ -13,7 +13,7 @@ export default function Meaning(props) {
                 <div key={index}>
                   <h2>{meaning.partOfSpeech}</h2>
                   <p>
-                    Definition: {props.meaning.definition} <br />
+                    Definition: {meaning.definition} <br />
                     <Example example={meaning.example} />
                     <Synonym synonym={meaning.synonyms} />
                   </p>

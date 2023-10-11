@@ -1,5 +1,8 @@
 body {
   font-family: "Bellefair", serif;
+  background-image: url(/public/books.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .footer {
   text-align: center;

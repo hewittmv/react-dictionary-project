@@ -1,6 +1,7 @@
 import React from "react";
 import Meaning from "./Meaning.js";
 import PhoneticAudio from "./PhoneticAudio";
+import "./Results.css";
 
 export default function results(props) {
   if (props.results && props.results1) {

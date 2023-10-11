@@ -10,15 +10,13 @@ export default function Search(props) {
   let [loaded, setLoaded] = useState(false);
 
   function handleResponse(response) {
-    console.log(response.data);
     setResults(response.data);
   }
   function handleAudioResponse(response) {
     setResults1(response.data[0]);
   }
 
-  function Search(event) {
-    event.preventDefault();
+  function Search() {
     let apiKey = "o00a45f3c7757cta20b5ccabe4f8ba48";
     let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
     axios.get(apiUrl).then(handleResponse);
@@ -28,13 +26,29 @@ export default function Search(props) {
   function handleKeywordChange(event) {
     SetKeyword(event.target.value);
   }
-  return (
-    <div className="Search">
-      <form onSubmit={Search}>
-        <input type="Search" autoFocus="true" onChange={handleKeywordChange} />
-        <input type="submit" value="Look It Up" />
-      </form>
-      <Results results={results} results1={results1} />
-    </div>
-  );
+  function handleSubmit(event) {
+    event.preventDefault();
+    Search();
+  }
+  function Load() {
+    setLoaded(true);
+    Search();
+  }
+  if (loaded) {
+    return (
+      <div className="Search">
+        <form onSubmit={handleSubmit}>
+          <input
+            type="Search"
+            autoFocus="true"
+            onChange={handleKeywordChange}
+          />
+          <input type="submit" value="Look It Up" />
+        </form>
+        <Results results={results} results1={results1} />
+      </div>
+    );
+  } else {
+    Load();
+  }
 }

@@ -37,14 +37,20 @@ export default function Search(props) {
   if (loaded) {
     return (
       <div className="Search">
-        <form onSubmit={handleSubmit}>
-          <input
-            type="Search"
-            autoFocus="true"
-            onChange={handleKeywordChange}
-          />
-          <input type="submit" value="Look It Up" />
-        </form>
+        <div className="row">
+          <form onSubmit={handleSubmit}></form>
+          <div className="col-9">
+            <input
+              type="Search"
+              autoFocus="true"
+              onChange={handleKeywordChange}
+            />
+          </div>
+          <div className="col-3">
+            <input type="submit" value="Look It Up" />
+          </div>
+        </div>
+
         <Results results={results} results1={results1} />
       </div>
     );

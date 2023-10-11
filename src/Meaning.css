@@ -1,0 +1,16 @@
+.meaning {
+  margin-top: 2%;
+  background-color: #f6f4f2;
+  border-radius: 15px;
+  padding-left: 2%;
+  display: flex;
+  flex-direction: row;
+  border-style: outset;
+  border-color: brown;
+}
+.meaning p {
+  font-size: 1.5rem;
+}
+.meaning h2 {
+  text-decoration: underline;
+}

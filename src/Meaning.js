@@ -12,9 +12,9 @@ export default function Meaning(props) {
             return (
               <section>
                 <div key={index}>
-                  <h2>{meaning.partOfSpeech}</h2>
-                  <p>
-                    Definition: {meaning.definition} <br />
+                  <h2 className="text-capitalize">{meaning.partOfSpeech}</h2>
+                  <p className>
+                    <em>Definition:</em> {meaning.definition} <br />
                     <Example example={meaning.example} />
                     <Synonym synonym={meaning.synonyms} />
                   </p>

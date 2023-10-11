@@ -44,10 +44,11 @@ export default function Search(props) {
               type="Search"
               autoFocus="true"
               onChange={handleKeywordChange}
+              className="input"
             />
           </div>
           <div className="col-3">
-            <input type="submit" value="Look It Up" />
+            <input type="submit" value="Look It Up" className="search-button" />
           </div>
         </div>
 

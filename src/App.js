@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className="container">
         <main>
-          <Search />
+          <Search defaultKeyword="autumn" />
         </main>
         <footer className="footer">
           <a

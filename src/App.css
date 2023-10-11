@@ -15,6 +15,9 @@ body {
   bottom: 0;
   left: 0;
 }
+.footer a {
+  color: aliceblue;
+}
 .container {
   border-radius: 15px;
   margin-top: 15%;

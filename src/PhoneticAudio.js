@@ -5,13 +5,17 @@ export default function PhoneticAudio(props) {
     return (
       <div className="phonetic-audio">
         {props.phonetics.map(function (phonetics, index) {
-          return (
-            <div key={index}>
-              <a href={phonetics.audio} target="_blank" rel="noreferrer">
-                🔊
-              </a>
-            </div>
-          );
+          if (index < 1) {
+            return (
+              <div key={index}>
+                <a href={phonetics.audio} target="_blank" rel="noreferrer">
+                  🔊
+                </a>
+              </div>
+            );
+          } else {
+            return null;
+          }
         })}
       </div>
     );

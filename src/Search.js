@@ -7,6 +7,7 @@ export default function Search() {
   let [keyword, SetKeyword] = useState("");
   let [results, setResults] = useState(null);
   let [results1, setResults1] = useState(null);
+  let [loaded, setLoaded] = useState(false);
 
   function handleResponse(response) {
     console.log(response.data);

@@ -1,0 +1,38 @@
+.image-one {
+  margin-top: 10%;
+}
+.image-one,
+.image-two,
+.image-three,
+.image-four {
+  margin-bottom: 10%;
+  width: 80%;
+  aspect-ratio: 1/1;
+  border-style: solid;
+  border-color: #6f3003;
+  border-radius: 10px;
+}
+.cube {
+  border-style: groove;
+  border-color: brown;
+  background-color: #650015;
+  color: white;
+  height: 60px;
+  width: 60px;
+  display: block;
+  font-size: 45px;
+  transform: rotate(20deg);
+
+  box-shadow: 1px 1px #813548, 2px 2px#66001A, 3px 3px #66001a, 4px 4px #66001a,
+    5px 5px #66001a, 6px 6px #66001a, 7px 7px #410111, 8px 8px #410111,
+    9px 9px #410111, 10px 10px #410111, 11px 11px #1b060b, 12px 12px #1b060b;
+}
+.r {
+  text-align: center;
+}
+.number {
+  font-size: 1.25rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}

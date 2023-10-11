@@ -7,7 +7,7 @@ export default function results(props) {
     return (
       <div className="results">
         <h2 className="word mt-3 text-capitalize">{props.results.word}</h2>
-        <h3 className="phonetic">
+        <h3 className="phonetics">
           |{props.results.phonetic} <em>/</em>{" "}
           <PhoneticAudio phonetics={props.results1.phonetics} />
         </h3>

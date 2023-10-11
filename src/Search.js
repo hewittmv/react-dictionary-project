@@ -42,7 +42,6 @@ export default function Search(props) {
           <div className="col-9">
             <input
               type="Search"
-              autoFocus="true"
               onChange={handleKeywordChange}
               className="input"
             />

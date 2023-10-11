@@ -3,7 +3,7 @@ import "./Search.css";
 import axios from "axios";
 import Results from "./Results";
 
-export default function Search() {
+export default function Search(props) {
   let [keyword, SetKeyword] = useState("");
   let [results, setResults] = useState(null);
   let [results1, setResults1] = useState(null);

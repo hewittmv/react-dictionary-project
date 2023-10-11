@@ -5,7 +5,7 @@ import Search from "./Search";
 function App() {
   return (
     <div className="App">
-      <div className="container mt-5">
+      <div className="container">
         <main>
           <Search defaultKeyword="autumn" />
         </main>

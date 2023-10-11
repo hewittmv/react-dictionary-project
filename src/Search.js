@@ -4,7 +4,7 @@ import axios from "axios";
 import Results from "./Results";
 
 export default function Search(props) {
-  let [keyword, SetKeyword] = useState("");
+  let [keyword, SetKeyword] = useState(props.defaultKeyword);
   let [results, setResults] = useState(null);
   let [results1, setResults1] = useState(null);
   let [loaded, setLoaded] = useState(false);

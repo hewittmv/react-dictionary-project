@@ -7,7 +7,7 @@ export default function Photos() {
       <div className="image-one">
         <div class="cube w">
           {" "}
-          W<span class="number"> 1</span>{" "}
+          W<span class="number"> 4</span>{" "}
         </div>
       </div>
       <div className="image-two">
@@ -25,7 +25,7 @@ export default function Photos() {
       <div className="image-four">
         <div class="cube d">
           {" "}
-          D<span class="number"> 1</span>{" "}
+          D<span class="number"> 2</span>{" "}
         </div>
       </div>
     </div>

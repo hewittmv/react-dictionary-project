@@ -1,3 +1,9 @@
+.images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .image-one {
   margin-top: 10%;
 }
@@ -5,34 +11,42 @@
 .image-two,
 .image-three,
 .image-four {
-  margin-bottom: 10%;
   width: 80%;
   aspect-ratio: 1/1;
   border-style: solid;
   border-color: #6f3003;
   border-radius: 10px;
+  margin-bottom: 5%;
 }
 .cube {
   border-style: groove;
   border-color: brown;
   background-color: #650015;
   color: white;
-  height: 60px;
-  width: 60px;
-  display: block;
-  font-size: 45px;
-  transform: rotate(20deg);
+  height: 50px;
+  width: 50px;
+  margin: 10% auto;
+  font-size: 30px;
 
-  box-shadow: 1px 1px #813548, 2px 2px#66001A, 3px 3px #66001a, 4px 4px #66001a,
-    5px 5px #66001a, 6px 6px #66001a, 7px 7px #410111, 8px 8px #410111,
-    9px 9px #410111, 10px 10px #410111, 11px 11px #1b060b, 12px 12px #1b060b;
+  text-align: center;
+
+  box-shadow: 1px 1px #813548, 2px 2px#66001A, 3px 3px #66001a, 4px 4px #410111,
+    5px 5px #410111, 6px 6px #410111, 7px 7px #410111, 8px 8px #150408;
+}
+
+.number {
+  font-size: 1rem;
+  position: fixed;
+  bottom: -5px;
+  right: 0;
+}
+.w,
+.d {
+  transform: rotate(20deg);
+}
+.o {
+  transform: rotate(-20deg);
 }
 .r {
-  text-align: center;
-}
-.number {
-  font-size: 1.25rem;
-  position: fixed;
-  bottom: 0;
-  right: 0;
+  transform: rotate(5deg);
 }

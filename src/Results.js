@@ -12,9 +12,7 @@ export default function results(props) {
           <div className="col-9">
             <div className="wordAndPhonetics">
               <div className="box-one">
-                <h2 className="word mt-3 text-capitalize">
-                  {props.results.word}
-                </h2>
+                <h2 className="word text-capitalize">{props.results.word}</h2>
               </div>
               <div className="box-two">
                 <h3 className="phonetics">

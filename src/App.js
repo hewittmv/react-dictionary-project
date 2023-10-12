@@ -9,6 +9,15 @@ function App() {
         {" "}
         D<span class="number"> 2</span>{" "}
       </div>
+      <div className="Dream">
+        <strong>Dream </strong>
+        <span className="partOfSpeech-Dream">Noun</span>{" "}
+        <span className="speech-marks">"</span>{" "}
+        <span className="dream-definition">
+          Thoughts, images, sensations that occur during sleep
+        </span>
+        <span className="speech-marks">"</span>
+      </div>
       <div className="container">
         <main>
           <Search defaultKeyword="autumn" />

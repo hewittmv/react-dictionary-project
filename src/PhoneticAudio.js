@@ -9,7 +9,12 @@ export default function PhoneticAudio(props) {
           if (index < 1) {
             return (
               <div key={index}>
-                <a href={phonetics.audio} target="_blank" rel="noreferrer">
+                <a
+                  href={phonetics.audio}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="audio"
+                >
                   🔊
                 </a>
               </div>

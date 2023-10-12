@@ -5,7 +5,7 @@ import Search from "./Search";
 function App() {
   return (
     <div className="App">
-      <div class="cube d">
+      <div class="cube-d">
         {" "}
         D<span class="number"> 2</span>{" "}
       </div>

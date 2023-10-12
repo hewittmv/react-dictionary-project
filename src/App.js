@@ -5,9 +5,9 @@ import Search from "./Search";
 function App() {
   return (
     <div className="App">
-      <div class="cube-d">
+      <div className="cube-d">
         {" "}
-        D<span class="number"> 2</span>{" "}
+        D<span className="number"> 2</span>{" "}
       </div>
       <div className="Dream">
         <span className="word-dream">

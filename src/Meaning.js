@@ -10,16 +10,14 @@ export default function Meaning(props) {
         {props.meaning.map(function (meaning, index) {
           if (index < 5) {
             return (
-              <section>
-                <div key={index}>
-                  <h2 className="text-capitalize">{meaning.partOfSpeech}</h2>
-                  <p className>
-                    <em>Definition:</em> {meaning.definition} <br />
-                    <Example example={meaning.example} />
-                    <Synonym synonym={meaning.synonyms} />
-                  </p>
+              <div key={index}>
+                <h2 className="text-capitalize">{meaning.partOfSpeech}</h2>
+                <div className="definition-example-synonym">
+                  <em>Definition:</em> {meaning.definition} <br />
+                  <Example example={meaning.example} />
+                  <Synonym synonym={meaning.synonyms} />
                 </div>
-              </section>
+              </div>
             );
           } else {
             return null;

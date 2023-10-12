@@ -10,11 +10,14 @@ function App() {
         D<span class="number"> 2</span>{" "}
       </div>
       <div className="Dream">
-        <strong>Dream </strong>
-        <span className="partOfSpeech-Dream">Noun</span>{" "}
+        <span className="word-dream">
+          <strong>Dream </strong>
+        </span>
+        <span className="partOfSpeech-Dream">Noun</span> <br />
         <span className="speech-marks">"</span>{" "}
         <span className="dream-definition">
-          Thoughts, images, sensations that occur during sleep
+          Thoughts, images, sensations <br />
+          that occur during sleep
         </span>
         <span className="speech-marks">"</span>
       </div>

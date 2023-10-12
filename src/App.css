@@ -53,12 +53,18 @@ body {
 }
 .partOfSpeech-Dream {
   color: yellow;
+  font-size: 30px;
 }
 .speech-marks {
   font-size: 20px;
-  color: white;
+
   font-weight: bold;
 }
+.speech-marks,
+.word-dream,
 .dream-definition {
   color: white;
+}
+.word-dream {
+  font-size: 2rem;
 }

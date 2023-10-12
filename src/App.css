@@ -5,6 +5,9 @@ body {
   background-size: 100%;
   background-position: top;
 }
+.wrapper {
+  position: relative;
+}
 .footer {
   backdrop-filter: blur(10px);
   background-color: rgb(27, 16, 3, 0.5);
@@ -21,50 +24,11 @@ body {
 
 .container {
   border-radius: 15px;
-  margin-top: 1%;
-  margin-bottom: 7%;
   border-style: solid;
   border-color: #ff7b19;
   border-width: 1.5px;
   backdrop-filter: blur(5px);
   max-width: 600px;
-}
-.cube-d {
-  border-style: groove;
-  border-color: brown;
-  background-color: #650015;
-  color: white;
-  height: 50px;
-  width: 50px;
-  position: relative;
-  top: 200px;
-  left: 30px;
-  font-size: 30px;
-  transform: rotate(10deg);
-  text-align: center;
-
-  box-shadow: 1px 1px #813548, 2px 2px#66001A, 3px 3px #66001a, 4px 4px #410111,
-    5px 5px #410111, 6px 6px #410111, 7px 7px #410111, 8px 8px #150408;
-}
-.Dream {
-  position: relative;
-  top: 200px;
-  left: 30px;
-}
-.partOfSpeech-Dream {
-  color: yellow;
-  font-size: 30px;
-}
-.speech-marks {
-  font-size: 20px;
-
-  font-weight: bold;
-}
-.speech-marks,
-.word-dream,
-.dream-definition {
-  color: white;
-}
-.word-dream {
-  font-size: 2rem;
+  position: absolute;
+  z-index: 3;
 }

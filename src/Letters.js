@@ -24,9 +24,37 @@ export default function Letters() {
         {" "}
         I<span className="number"> 1</span>{" "}
       </div>
-      <div className="cube-i">
+      <div className="cube-c">
         {" "}
         C<span className="number"> 3</span>{" "}
+      </div>
+      <div className="cube-t">
+        {" "}
+        T<span className="number"> 1</span>{" "}
+      </div>
+      <div className="cube-ii">
+        {" "}
+        I<span className="number"> 1</span>{" "}
+      </div>
+      <div className="cube-o">
+        {" "}
+        O<span className="number"> 1</span>{" "}
+      </div>
+      <div className="cube-n">
+        {" "}
+        N<span className="number"> 1</span>{" "}
+      </div>
+      <div className="cube-a">
+        {" "}
+        A<span className="number"> 1</span>{" "}
+      </div>
+      <div className="cube-r">
+        {" "}
+        R<span className="number"> 1</span>{" "}
+      </div>
+      <div className="cube-y">
+        {" "}
+        Y<span className="number"> 4</span>{" "}
       </div>
     </div>
   );

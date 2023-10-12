@@ -1,4 +1,17 @@
-.cube-d {
+.Letters {
+  position: relative;
+  z-index: -1;
+}
+.cube-d,
+.cube-i,
+.cube-c,
+.cube-t,
+.cube-ii,
+.cube-o,
+.cube-n,
+.cube-a,
+.cube-r,
+.cube-y {
   border-style: groove;
   border-color: brown;
   background-color: #650015;
@@ -6,14 +19,71 @@
   height: 50px;
   width: 50px;
   position: relative;
+  font-size: 30px;
+  text-align: center;
+  box-shadow: 1px 1px #813548, 2px 2px#66001A, 3px 3px #66001a, 4px 4px #410111,
+    5px 5px #410111, 6px 6px #410111, 7px 7px #410111, 8px 8px #150408;
+}
+.cube-d {
   top: 200px;
   left: 30px;
   font-size: 30px;
   transform: rotate(10deg);
-  text-align: center;
-
-  box-shadow: 1px 1px #813548, 2px 2px#66001A, 3px 3px #66001a, 4px 4px #410111,
-    5px 5px #410111, 6px 6px #410111, 7px 7px #410111, 8px 8px #150408;
+}
+.cube-i {
+  bottom: -70px;
+  left: 180px;
+  font-size: 30px;
+  transform: rotate(10deg);
+  z-index: -1;
+}
+.cube-c {
+  top: 200px;
+  left: 30px;
+  font-size: 30px;
+  transform: rotate(10deg);
+}
+.cube-t {
+  top: 230px;
+  left: 140px;
+  font-size: 30px;
+  transform: rotate(10deg);
+}
+.cube-ii {
+  top: 235px;
+  left: 150px;
+  font-size: 30px;
+  transform: rotate(10deg);
+}
+.cube-o {
+  top: 180px;
+  left: 300px;
+  font-size: 30px;
+  transform: rotate(10deg);
+}
+.cube-n {
+  top: 100px;
+  left: 470px;
+  font-size: 30px;
+  transform: rotate(10deg);
+}
+.cube-a {
+  top: -10px;
+  left: 660px;
+  font-size: 30px;
+  transform: rotate(10deg);
+}
+.cube-r {
+  top: -270px;
+  left: 650px;
+  font-size: 30px;
+  transform: rotate(10deg);
+}
+.cube-y {
+  top: -460px;
+  left: 600px;
+  font-size: 30px;
+  transform: rotate(10deg);
 }
 .Dream {
   position: relative;
@@ -36,4 +106,10 @@
 }
 .word-dream {
   font-size: 2rem;
+}
+.number {
+  font-size: 1rem;
+  position: fixed;
+  bottom: -5px;
+  right: 0;
 }

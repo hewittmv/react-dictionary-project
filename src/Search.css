@@ -6,6 +6,8 @@
   border-radius: 8px;
   border-color: #47260e;
   height: 37px;
+  padding-left: 2%;
+  font-size: 1.25rem;
 }
 .search-button {
   border-style: 1px solid;

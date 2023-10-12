@@ -1,26 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Search from "./Search";
+import Letters from "./Letters";
 
 function App() {
   return (
     <div className="App">
-      <div className="cube-d">
-        {" "}
-        D<span className="number"> 2</span>{" "}
-      </div>
-      <div className="Dream">
-        <span className="word-dream">
-          <strong>Dream </strong>
-        </span>
-        <span className="partOfSpeech-Dream">Noun</span> <br />
-        <span className="speech-marks">"</span>{" "}
-        <span className="dream-definition">
-          Thoughts, images, sensations <br />
-          that occur during sleep
-        </span>
-        <span className="speech-marks">"</span>
-      </div>
+      <Letters />
       <div className="container">
         <main>
           <Search defaultKeyword="autumn" />

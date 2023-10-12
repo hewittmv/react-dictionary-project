@@ -20,3 +20,6 @@
 .search-button:hover {
   border-color: #47260e;
 }
+label {
+  color: rgb(238, 153, 42);
+}

@@ -11,13 +11,19 @@ export default function results(props) {
         <div className="row">
           <div className="col-9">
             <div className="wordAndPhonetics">
-              <h2 className="word mt-3 text-capitalize">
-                {props.results.word}
-              </h2>
-              <h3 className="phonetics">
-                |{props.results.phonetic} <em>/</em>{" "}
+              <div className="box-one">
+                <h2 className="word mt-3 text-capitalize">
+                  {props.results.word}
+                </h2>
+              </div>
+              <div className="box-two">
+                <h3 className="phonetics">
+                  |{props.results.phonetic} <em>/</em>{" "}
+                </h3>
+              </div>
+              <div className="box-three">
                 <PhoneticAudio phonetics={props.results1.phonetics} />
-              </h3>
+              </div>
             </div>
 
             <Meaning meaning={props.results.meanings} />

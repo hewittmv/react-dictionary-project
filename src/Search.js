@@ -44,6 +44,7 @@ export default function Search(props) {
               type="Search"
               onChange={handleKeywordChange}
               className="input"
+              placeholder="Enter a word"
             />
           </div>
           <div className="col-3">

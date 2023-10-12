@@ -14,6 +14,7 @@ export default function PhoneticAudio(props) {
                   target="_blank"
                   rel="noreferrer"
                   className="audio"
+                  alt="Click to listen to the word"
                 >
                   🔊
                 </a>

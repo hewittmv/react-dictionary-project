@@ -58,7 +58,7 @@ export default function Letters() {
         </span>
         <span className="partOfSpeech-Ruckus">Noun</span> <br />
         <span className="speech-marks">"</span>{" "}
-        <span className="ruckuc-definition">
+        <span className="ruckus-definition">
           The act of making <br />a noisy disturbance
         </span>
         <span className="speech-marks">"</span>

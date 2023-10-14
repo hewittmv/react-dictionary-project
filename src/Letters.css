@@ -90,7 +90,13 @@
   bottom: -500px;
   left: 120px;
 }
-.partOfSpeech-Dream {
+.Ruckus {
+  position: relative;
+  left: 600px;
+  top: -230px;
+}
+.partOfSpeech-Dream,
+.partOfSpeech-Ruckus {
   color: yellow;
   font-size: 30px;
   padding-left: 10px;
@@ -103,10 +109,13 @@
 }
 .speech-marks,
 .word-dream,
-.dream-definition {
+.dream-definition,
+.word-ruckus,
+.ruckus-definition {
   color: white;
 }
-.word-dream {
+.word-dream,
+.word-ruckus {
   font-size: 2rem;
 }
 .number {

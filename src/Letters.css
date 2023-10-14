@@ -28,7 +28,7 @@
   transform: rotate(20deg);
 }
 .cube-c {
-  top: -40px;
+  top: -65px;
   left: 30px;
   font-size: 30px;
   transform: rotate(20deg);
@@ -109,7 +109,6 @@
 .speech-marks {
   font-size: 20px;
   padding-left: 10px;
-
   font-weight: bold;
 }
 .speech-marks,

@@ -47,9 +47,7 @@ export default function Search(props) {
               id="DictionaryWordSearch"
               placeholder="Enter a word"
             />
-            <label htmlFor="DictionaryWordSearch">
-              Dictionary: Search a Word
-            </label>
+            <label htmlFor="DictionaryWordSearch">Dictionary</label>
           </div>
           <div className="col-3">
             <input

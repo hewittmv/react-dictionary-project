@@ -24,50 +24,50 @@
     5px 5px #410111, 6px 6px #410111, 7px 7px #410111, 8px 8px #150408;
 }
 .cube-d {
-  top: 200px;
-  left: 30px;
+  bottom: -540px;
+  left: 45px;
   font-size: 30px;
-  transform: rotate(10deg);
+  transform: rotate(20deg);
 }
 .cube-i {
-  bottom: -70px;
-  left: 180px;
+  bottom: 70px;
+  left: 480px;
   font-size: 30px;
-  transform: rotate(10deg);
+  transform: rotate(15deg);
   z-index: -1;
 }
 .cube-c {
-  top: 200px;
+  top: -130px;
   left: 30px;
   font-size: 30px;
   transform: rotate(10deg);
 }
 .cube-t {
-  top: 230px;
-  left: 140px;
+  top: 10px;
+  left: -40px;
   font-size: 30px;
   transform: rotate(10deg);
 }
 .cube-ii {
-  top: 235px;
-  left: 150px;
+  top: -230px;
+  left: 250px;
   font-size: 30px;
-  transform: rotate(10deg);
+  transform: rotate(25deg);
 }
 .cube-o {
   top: 180px;
-  left: 300px;
+  left: 700px;
   font-size: 30px;
   transform: rotate(10deg);
 }
 .cube-n {
-  top: 100px;
-  left: 470px;
+  top: 150px;
+  left: 570px;
   font-size: 30px;
   transform: rotate(10deg);
 }
 .cube-a {
-  top: -10px;
+  top: -350px;
   left: 660px;
   font-size: 30px;
   transform: rotate(10deg);
@@ -80,21 +80,24 @@
 }
 .cube-y {
   top: -350px;
-  right: -999px;
+  right: -800px;
   font-size: 30px;
   transform: rotate(10deg);
 }
 .Dream {
+  display: flex;
   position: relative;
-  top: 200px;
-  left: 30px;
+  bottom: -500px;
+  left: 120px;
 }
 .partOfSpeech-Dream {
   color: yellow;
   font-size: 30px;
+  padding-left: 10px;
 }
 .speech-marks {
   font-size: 20px;
+  padding-left: 10px;
 
   font-weight: bold;
 }

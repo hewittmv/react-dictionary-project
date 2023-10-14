@@ -52,6 +52,17 @@ export default function Letters() {
         {" "}
         R<span className="number"> 1</span>{" "}
       </div>
+      <div className="Ruckus">
+        <span className="word-ruckus">
+          <strong>Ruckus </strong>
+        </span>
+        <span className="partOfSpeech-Ruckus">Noun</span> <br />
+        <span className="speech-marks">"</span>{" "}
+        <span className="ruckuc-definition">
+          The act of making <br />a noisy disturbance
+        </span>
+        <span className="speech-marks">"</span>
+      </div>
       <div className="cube-y">
         {" "}
         Y<span className="number"> 4</span>{" "}

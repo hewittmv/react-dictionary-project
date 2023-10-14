@@ -1,3 +1,7 @@
+.App {
+  position: relative;
+}
+
 body {
   font-family: "Bellefair", serif;
   background-image: url(/public/books.jpg);

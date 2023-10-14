@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Letters />
-      <div className="container">
+      <div id="level-2" className="container">
         <main>
           <Search defaultKeyword="autumn" />
         </main>

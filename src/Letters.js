@@ -40,6 +40,19 @@ export default function Letters() {
         {" "}
         O<span className="number"> 1</span>{" "}
       </div>
+
+      <div className="Oracy">
+        <span className="word-oracy">
+          <strong>Oracy </strong>
+        </span>
+        <span className="partOfSpeech-oracy">Noun</span> <br />
+        <span className="speech-marks">"</span>{" "}
+        <span className="oracy-definition">
+          The ability to express <br /> oneself fluently & grammatically
+        </span>
+        <span className="speech-marks">"</span>
+      </div>
+
       <div className="cube-n">
         {" "}
         N<span className="number"> 1</span>{" "}

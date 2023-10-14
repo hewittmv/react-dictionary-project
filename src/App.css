@@ -5,9 +5,6 @@ body {
   background-size: 100%;
   background-position: top;
 }
-.wrapper {
-  position: relative;
-}
 .footer {
   backdrop-filter: blur(10px);
   background-color: rgb(27, 16, 3, 0.5);
@@ -30,5 +27,4 @@ body {
   backdrop-filter: blur(5px);
   max-width: 600px;
   position: absolute;
-  z-index: 3;
 }

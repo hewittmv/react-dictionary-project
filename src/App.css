@@ -1,7 +1,7 @@
 body {
   font-family: "Bellefair", serif;
   background-image: url(/public/books.jpg);
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: 100%;
   background-position: top;
 }

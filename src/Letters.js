@@ -20,10 +20,7 @@ export default function Letters() {
         </span>
         <span className="speech-marks">"</span>
       </div>
-      <div className="cube-i">
-        {" "}
-        I<span className="number"> 1</span>{" "}
-      </div>
+
       <div className="cube-c">
         {" "}
         C<span className="number"> 3</span>{" "}
@@ -32,10 +29,7 @@ export default function Letters() {
         {" "}
         T<span className="number"> 1</span>{" "}
       </div>
-      <div className="cube-ii">
-        {" "}
-        I<span className="number"> 1</span>{" "}
-      </div>
+
       <div className="cube-o">
         {" "}
         O<span className="number"> 1</span>{" "}
@@ -57,6 +51,20 @@ export default function Letters() {
         {" "}
         N<span className="number"> 1</span>{" "}
       </div>
+
+      <div className="Nascent">
+        <span className="word-nascent">
+          <strong>Nascent </strong>
+        </span>
+        <span className="partOfSpeech-nascent">Adjective</span> <br />
+        <span className="speech-marks">"</span>{" "}
+        <span className="nascent-definition">
+          just coming into existence & beginning <br /> to display signs of
+          future potential
+        </span>
+        <span className="speech-marks">"</span>
+      </div>
+
       <div className="cube-a">
         {" "}
         A<span className="number"> 1</span>{" "}
@@ -79,6 +87,20 @@ export default function Letters() {
       <div className="cube-y">
         {" "}
         Y<span className="number"> 4</span>{" "}
+      </div>
+
+      <div className="Yield">
+        <span className="word-yield">
+          <strong>Yield </strong>
+        </span>{" "}
+        <br />
+        <span className="partOfSpeech-yield">Verb</span> <br />
+        <span className="speech-marks">"</span>{" "}
+        <span className="yield-definition">
+          Provide or
+          <br /> produce
+        </span>
+        <span className="speech-marks">"</span>
       </div>
     </div>
   );

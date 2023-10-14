@@ -1,5 +1,6 @@
 .Search {
   margin-top: 2%;
+  position: relative;
 }
 .input {
   width: 100%;

@@ -6,12 +6,14 @@ import Letters from "./Letters";
 function App() {
   return (
     <div className="App">
-      <Letters />
-      <div id="level-2" className="container">
-        <main>
-          <Search defaultKeyword="autumn" />
-        </main>
-      </div>
+      <div class="level-1">
+        <Letters />
+        <div id="container-1">
+          <main>
+            <Search defaultKeyword="autumn" />
+          </main>
+        </div>
+      </div>{" "}
       <footer className="footer">
         <a
           className="github-link"

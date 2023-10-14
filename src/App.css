@@ -1,13 +1,12 @@
-.App {
-  position: relative;
-}
-
 body {
   font-family: "Bellefair", serif;
   background-image: url(/public/books.jpg);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: 100%;
   background-position: top;
+}
+.level-1 {
+  position: relative;
 }
 .footer {
   backdrop-filter: blur(10px);
@@ -23,7 +22,7 @@ body {
   color: aliceblue;
 }
 
-.container {
+#container-1 {
   border-radius: 15px;
   border-style: solid;
   border-color: #ff7b19;
@@ -31,4 +30,7 @@ body {
   backdrop-filter: blur(5px);
   max-width: 600px;
   position: absolute;
+  z-index: 1;
+  top: 5%;
+  left: 25%;
 }

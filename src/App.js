@@ -5,7 +5,7 @@ import Letters from "./Letters";
 
 function App() {
   return (
-    <div id="container-0">
+    <div id="container">
       <div className="App">
         <div class="level-1">
           <Letters />

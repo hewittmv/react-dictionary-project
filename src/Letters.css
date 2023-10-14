@@ -79,8 +79,8 @@
   transform: rotate(10deg);
 }
 .cube-y {
-  top: -460px;
-  left: 600px;
+  top: -350px;
+  right: -999px;
   font-size: 30px;
   transform: rotate(10deg);
 }

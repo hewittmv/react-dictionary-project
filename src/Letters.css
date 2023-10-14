@@ -24,7 +24,7 @@
     5px 5px #410111, 6px 6px #410111, 7px 7px #410111, 8px 8px #150408;
 }
 .cube-d {
-  bottom: -540px;
+  bottom: -560px;
   left: 45px;
   font-size: 30px;
   transform: rotate(20deg);
@@ -87,13 +87,13 @@
 .Dream {
   display: flex;
   position: relative;
-  bottom: -500px;
+  bottom: -510px;
   left: 120px;
 }
 .Ruckus {
   position: relative;
   left: 600px;
-  top: -230px;
+  top: -220px;
 }
 .partOfSpeech-Dream,
 .partOfSpeech-Ruckus {

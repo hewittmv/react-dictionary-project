@@ -53,7 +53,7 @@ export default function Search(props) {
             <input
               type="submit"
               id="searchInDictionary"
-              value="Look It Up"
+              value="Search"
               className="search-button"
             />
           </div>

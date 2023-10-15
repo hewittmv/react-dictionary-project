@@ -3,7 +3,8 @@ body {
   background-image: url(/public/books.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: top;
+  background-size: cover;
+  background-position: center;
 }
 .level-1 {
   position: relative;

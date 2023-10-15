@@ -13,12 +13,12 @@ export default function Letters() {
           <strong>Dream </strong>
         </span>
         <span className="partOfSpeech-Dream">Noun</span> <br />
-        <span className="speech-marks">"</span>{" "}
         <span className="dream-definition">
+          <span className="speech-marks">"</span>
           Thoughts, images, sensations <br />
           that occur during sleep
+          <span className="speech-marks">"</span>
         </span>
-        <span className="speech-marks">"</span>
       </div>
 
       <div className="cube-c">
@@ -40,11 +40,11 @@ export default function Letters() {
           <strong>Oracy </strong>
         </span>
         <span className="partOfSpeech-oracy">Noun</span> <br />
-        <span className="speech-marks">"</span>{" "}
         <span className="oracy-definition">
-          The ability to express <br /> oneself fluently & grammatically
+          <span className="speech-marks">"</span> The ability to express <br />{" "}
+          oneself fluently & grammatically
+          <span className="speech-marks">"</span>
         </span>
-        <span className="speech-marks">"</span>
       </div>
 
       <div className="cube-n">
@@ -57,12 +57,11 @@ export default function Letters() {
           <strong>Nascent </strong>
         </span>
         <span className="partOfSpeech-nascent">Adjective</span> <br />
-        <span className="speech-marks">"</span>{" "}
         <span className="nascent-definition">
-          just coming into existence & beginning <br /> to display signs of
-          future potential
+          <span className="speech-marks">"</span> just coming into existence &
+          beginning <br /> to display signs of future potential
+          <span className="speech-marks">"</span>
         </span>
-        <span className="speech-marks">"</span>
       </div>
 
       <div className="cube-a">
@@ -78,11 +77,11 @@ export default function Letters() {
           <strong>Ruckus </strong>
         </span>
         <span className="partOfSpeech-Ruckus">Noun</span> <br />
-        <span className="speech-marks">"</span>{" "}
         <span className="ruckus-definition">
-          The act of making <br />a noisy disturbance
+          <span className="speech-marks">"</span> The act of making <br />a
+          noisy disturbance
+          <span className="speech-marks">"</span>
         </span>
-        <span className="speech-marks">"</span>
       </div>
       <div className="cube-y">
         {" "}
@@ -95,12 +94,11 @@ export default function Letters() {
         </span>{" "}
         <br />
         <span className="partOfSpeech-yield">Verb</span> <br />
-        <span className="speech-marks">"</span>{" "}
         <span className="yield-definition">
-          Provide or
+          <span className="speech-marks">"</span> Provide or
           <br /> produce
+          <span className="speech-marks">"</span>
         </span>
-        <span className="speech-marks">"</span>
       </div>
     </div>
   );

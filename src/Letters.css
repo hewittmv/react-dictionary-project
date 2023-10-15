@@ -137,3 +137,41 @@
   bottom: -5px;
   right: 0;
 }
+@media (max-width: 400px) {
+  .cube-d {
+    bottom: -450px;
+    left: 45px;
+  }
+  .Dream {
+    bottom: -410px;
+    left: 120px;
+  }
+  .dream-definition {
+    font-size: 1.45rem;
+    position: relative;
+    bottom: -65px;
+    left: -150px;
+  }
+  .cube-y {
+    top: -100px;
+    right: 1px;
+  }
+  .Yield {
+    display: flex;
+    position: relative;
+    left: 70px;
+    bottom: 130px;
+  }
+  .yield-definition {
+    font-size: 1.5rem;
+  }
+  .cube-n {
+    top: -430px;
+    left: 175px;
+    font-size: 30px;
+  }
+  .Nascent {
+    left: 235px;
+    bottom: 465px;
+  }
+}

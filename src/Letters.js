@@ -64,11 +64,6 @@ export default function Letters() {
         </span>
       </div>
 
-      <div className="cube-a">
-        {" "}
-        A<span className="number"> 1</span>{" "}
-      </div>
-
       <div className="cube-y">
         {" "}
         Y<span className="number"> 4</span>{" "}

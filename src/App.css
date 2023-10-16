@@ -22,3 +22,56 @@ a {
   padding: 3%;
   margin-top: 10%;
 }
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 15%;
+}
+.cube-d,
+.cube-n {
+  position: relative;
+  font-size: 30px;
+  transform: rotate(20deg);
+  border-style: groove;
+  border-color: brown;
+  background-color: #650015;
+  color: white;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  box-shadow: 1px 1px #813548, 2px 2px#66001A, 3px 3px #66001a, 4px 4px #410111,
+    5px 5px #410111, 6px 6px #410111, 7px 7px #410111, 8px 8px #150408;
+}
+.cube-d,
+.cube-n {
+  margin-top: 7%;
+}
+
+.Dream .number,
+.Nascent .number {
+  font-size: 0.75rem;
+  position: fixed;
+  bottom: -5px;
+  right: 0;
+}
+.Dream .cube-d,
+.word-dream,
+.dream-definition,
+.speech-marks,
+.Nascent .cube-n,
+.word-nascent,
+.nascent-definition,
+.speech-marks {
+  color: white;
+}
+.partOfSpeech-dream,
+.partOfSpeech-nascent {
+  color: yellow;
+}
+.Dream {
+  margin-left: 5%;
+}

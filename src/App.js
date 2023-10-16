@@ -7,7 +7,19 @@ function App() {
   return (
     <div className="App">
       <div class="container" id="container-zero">
-        <header className="header"></header>
+        <header className="header">
+          <div className="Nascent">
+            <span className="word-nascent">
+              <strong>Nascent </strong>
+            </span>
+            <span className="partOfSpeech-nascent">Adjective</span> <br />
+            <span className="nascent-definition">
+              <span className="speech-marks">"</span> just coming into existence
+              & beginning <br /> to display signs of future potential
+              <span className="speech-marks">"</span>
+            </span>
+          </div>
+        </header>
         <Letters />
         <div id="container-1">
           <main>
@@ -16,6 +28,22 @@ function App() {
         </div>
 
         <footer className="footer">
+          <div className="cube-d">
+            {" "}
+            D<span className="number"> 2</span>{" "}
+          </div>
+          <div className="Dream">
+            <span className="word-dream">
+              <strong>Dream </strong>
+            </span>
+            <span className="partOfSpeech-Dream">Noun</span> <br />
+            <span className="dream-definition">
+              <span className="speech-marks">"</span>
+              Thoughts, images, sensations <br />
+              that occur during sleep
+              <span className="speech-marks">"</span>
+            </span>
+          </div>
           <a
             className="github-link"
             href="https://github.com/hewittmv/react-dictionary-project"

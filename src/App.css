@@ -1,4 +1,9 @@
+html,
 body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
   font-family: "Bellefair", serif;
   background-image: url(/public/books.jpg);
   background-repeat: no-repeat;
@@ -9,11 +14,9 @@ body {
 
 .header,
 .footer {
-  backdrop-filter: blur(5px);
-  background-color: rgba(249, 173, 81, 0.2);
   position: fixed;
   width: 100%;
-  height: 60px;
+  height: 10%;
 
   text-align: center;
 }
@@ -22,14 +25,75 @@ body {
   left: 0;
 }
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   bottom: 0;
   left: 0;
+  backdrop-filter: blur(5px);
+  background-color: rgba(249, 173, 81, 0.2);
 }
 .footer a {
   color: aliceblue;
 }
+.cube-d,
+.cube-n {
+  font-size: 20px;
+  transform: rotate(20deg);
+  border-style: groove;
+  border-color: brown;
+  background-color: #650015;
+  color: white;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  box-shadow: 1px 1px #813548, 2px 2px#66001A, 3px 3px #66001a, 4px 4px #410111,
+    5px 5px #410111, 6px 6px #410111, 7px 7px #410111, 8px 8px #150408;
+}
+
+.Nascent {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 3%;
+}
+
+.Dream .speech-marks {
+  font-size: 20px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+.partOfSpeech-Dream,
+.partOfSpeech-nascent {
+  color: yellow;
+  font-size: 30px;
+  padding-left: 10px;
+}
+.word-dream,
+.word-nascent {
+  color: white;
+  font-size: 2rem;
+}
+.Dream .number {
+  font-size: 1rem;
+  position: fixed;
+  bottom: -5px;
+  right: 0;
+}
+.Nascent .number {
+  font-size: 0.75rem;
+  position: fixed;
+  bottom: -5px;
+  right: 0;
+}
+.nascent-definition,
+.dream-definition {
+  color: white;
+  line-height: 20px;
+}
+
 #container-zero {
-  margin-bottom: 15%;
+  margin: 20%;
 }
 #container-1 {
   border-radius: 15px;

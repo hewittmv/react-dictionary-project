@@ -1,11 +1,9 @@
 .Letters {
   position: absolute;
 }
-.cube-d,
 .cube-c,
 .cube-t,
 .cube-o,
-.cube-n,
 .cube-y {
   border-style: groove;
   border-color: brown;
@@ -19,12 +17,7 @@
   box-shadow: 1px 1px #813548, 2px 2px#66001A, 3px 3px #66001a, 4px 4px #410111,
     5px 5px #410111, 6px 6px #410111, 7px 7px #410111, 8px 8px #150408;
 }
-.cube-d {
-  bottom: -560px;
-  left: 45px;
-  font-size: 30px;
-  transform: rotate(20deg);
-}
+
 .cube-c {
   top: -65px;
   left: 30px;
@@ -44,12 +37,6 @@
   font-size: 30px;
   transform: rotate(10deg);
 }
-.cube-n {
-  top: -330px;
-  left: 350px;
-  font-size: 30px;
-  transform: rotate(10deg);
-}
 
 .cube-y {
   top: -350px;
@@ -57,32 +44,20 @@
   font-size: 30px;
   transform: rotate(10deg);
 }
-.Dream {
-  display: flex;
-  position: relative;
-  bottom: -510px;
-  left: 120px;
-}
 
 .Oracy {
   position: relative;
   left: 700px;
   top: 130px;
 }
-.Nascent {
-  display: flex;
-  position: relative;
-  left: 430px;
-  bottom: 375px;
-}
+
 .Yield {
   position: relative;
   left: -60px;
   bottom: 330px;
 }
-.partOfSpeech-Dream,
+
 .partOfSpeech-oracy,
-.partOfSpeech-nascent,
 .partOfSpeech-yield {
   color: yellow;
   font-size: 30px;
@@ -94,19 +69,13 @@
   font-weight: bold;
 }
 .speech-marks,
-.word-dream,
-.dream-definition,
 .word-oracy,
 .oracy-definition,
-.word-nascent,
-.nascent-definition,
 .word-yield,
 .yield-definition {
   color: white;
 }
-.word-dream,
 .word-oracy,
-.word-nascent,
 .word-yield {
   font-size: 2rem;
 }
@@ -115,96 +84,4 @@
   position: fixed;
   bottom: -5px;
   right: 0;
-}
-@media (max-width: 400px) {
-  .cube-d {
-    bottom: -450px;
-    left: 45px;
-  }
-  .Dream {
-    bottom: -410px;
-    left: 120px;
-  }
-  .dream-definition {
-    font-size: 1.45rem;
-    position: relative;
-    bottom: -65px;
-    left: -150px;
-  }
-  .cube-y {
-    top: -100px;
-    right: 1px;
-  }
-  .Yield {
-    display: flex;
-    position: relative;
-    left: 70px;
-    bottom: 130px;
-  }
-  .yield-definition {
-    font-size: 1.5rem;
-  }
-  .cube-n {
-    top: -430px;
-    left: 175px;
-    font-size: 30px;
-  }
-  .Nascent {
-    left: 235px;
-    bottom: 465px;
-  }
-}
-@media (max-width: 280px) {
-  .cube-d {
-    bottom: -450px;
-    left: 10px;
-  }
-  .Dream {
-    bottom: -350px;
-    left: 65px;
-  }
-  .dream-definition {
-    line-height: 25px;
-    bottom: -30px;
-  }
-  .cube-n {
-    top: -220px;
-    left: 135px;
-    font-size: 20px;
-    height: 30px;
-    width: 30px;
-  }
-  .Nascent {
-    left: 180px;
-  }
-  .word-nascent {
-    font-size: 1.5rem;
-    left: 5px;
-    bottom: 565px;
-    color: pink;
-  }
-
-  .cube-n .number {
-    font-size: 10px;
-  }
-  .partOfSpeech-nascent {
-    font-size: 1rem;
-  }
-  .nascent-definition {
-    display: none;
-  }
-  .cube-a,
-  .cube-c,
-  .cube-t,
-  .cube-y,
-  .cube-o,
-  .cube-r,
-  .word-oracy,
-  .word-yield,
-  .partOfSpeech-oracy,
-  .partOfSpeech-yield,
-  .oracy-definition,
-  .yield-definition {
-    display: none;
-  }
 }

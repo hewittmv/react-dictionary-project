@@ -6,9 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="container d-flex justify-content-center">
-        <header className="header"></header>
-
-        <div id="container-1">
+        <div className="container" id="container-1">
           <main>
             <Search defaultKeyword="autumn" />
           </main>
@@ -22,8 +20,6 @@ function App() {
           </a>
           <img src={logo} className="react-logo" width="50px" alt="logo" />
         </div>
-
-        <footer className="footer"></footer>
       </div>
     </div>
   );

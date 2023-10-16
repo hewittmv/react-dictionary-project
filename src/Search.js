@@ -36,7 +36,7 @@ export default function Search(props) {
   }
   if (loaded) {
     return (
-      <div className="Search">
+      <div className="container Search">
         <div className="row">
           <form onSubmit={handleSubmit}></form>
           <div className="col-9">

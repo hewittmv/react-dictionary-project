@@ -5,8 +5,8 @@ import Letters from "./Letters";
 
 function App() {
   return (
-    <div class="container">
-      <div className="App">
+    <div className="App">
+      <div class="container" id="container-zero">
         <div class="level-1">
           <Letters />
           <div id="container-1">

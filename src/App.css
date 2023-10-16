@@ -33,8 +33,9 @@ body {
   backdrop-filter: blur(5px);
   background-color: rgba(249, 173, 81, 0.2);
 }
-.footer a {
+a {
   color: aliceblue;
+  margin-left: 3%;
 }
 .cube-d,
 .cube-n {

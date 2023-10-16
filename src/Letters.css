@@ -1,12 +1,11 @@
 .Letters {
-  position: relative;
+  position: absolute;
 }
 .cube-d,
 .cube-c,
 .cube-t,
 .cube-o,
 .cube-n,
-.cube-a,
 .cube-y {
   border-style: groove;
   border-color: brown;

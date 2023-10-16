@@ -68,21 +68,7 @@ export default function Letters() {
         {" "}
         A<span className="number"> 1</span>{" "}
       </div>
-      <div className="cube-r">
-        {" "}
-        R<span className="number"> 1</span>{" "}
-      </div>
-      <div className="Ruckus">
-        <span className="word-ruckus">
-          <strong>Ruckus </strong>
-        </span>
-        <span className="partOfSpeech-Ruckus">Noun</span> <br />
-        <span className="ruckus-definition">
-          <span className="speech-marks">"</span> The act of making <br />a
-          noisy disturbance
-          <span className="speech-marks">"</span>
-        </span>
-      </div>
+
       <div className="cube-y">
         {" "}
         Y<span className="number"> 4</span>{" "}

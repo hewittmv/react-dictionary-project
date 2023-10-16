@@ -7,14 +7,13 @@ function App() {
   return (
     <div className="App">
       <div class="container" id="container-zero">
-        <div class="level-1">
-          <Letters />
-          <div id="container-1">
-            <main>
-              <Search defaultKeyword="autumn" />
-            </main>
-          </div>
-        </div>{" "}
+        <Letters />
+        <div id="container-1">
+          <main>
+            <Search defaultKeyword="autumn" />
+          </main>
+        </div>
+
         <footer className="footer">
           <a
             className="github-link"

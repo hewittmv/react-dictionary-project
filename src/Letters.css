@@ -7,7 +7,6 @@
 .cube-o,
 .cube-n,
 .cube-a,
-.cube-r,
 .cube-y {
   border-style: groove;
   border-color: brown;
@@ -58,12 +57,7 @@
   font-size: 30px;
   transform: rotate(10deg);
 }
-.cube-r {
-  top: -270px;
-  left: 540px;
-  font-size: 30px;
-  transform: rotate(10deg);
-}
+
 .cube-y {
   top: -350px;
   right: 40px;
@@ -76,11 +70,7 @@
   bottom: -510px;
   left: 120px;
 }
-.Ruckus {
-  position: relative;
-  left: 600px;
-  top: -340px;
-}
+
 .Oracy {
   position: relative;
   left: 700px;
@@ -98,7 +88,6 @@
   bottom: 330px;
 }
 .partOfSpeech-Dream,
-.partOfSpeech-Ruckus,
 .partOfSpeech-oracy,
 .partOfSpeech-nascent,
 .partOfSpeech-yield {
@@ -114,8 +103,6 @@
 .speech-marks,
 .word-dream,
 .dream-definition,
-.word-ruckus,
-.ruckus-definition,
 .word-oracy,
 .oracy-definition,
 .word-nascent,
@@ -125,7 +112,6 @@
   color: white;
 }
 .word-dream,
-.word-ruckus,
 .word-oracy,
 .word-nascent,
 .word-yield {
@@ -220,13 +206,10 @@
   .cube-y,
   .cube-o,
   .cube-r,
-  .word-ruckus,
   .word-oracy,
   .word-yield,
-  .partOfSpeech-Ruckus,
   .partOfSpeech-oracy,
   .partOfSpeech-yield,
-  .ruckus-definition,
   .oracy-definition,
   .yield-definition {
     display: none;

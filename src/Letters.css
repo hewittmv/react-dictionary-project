@@ -175,3 +175,60 @@
     bottom: 465px;
   }
 }
+@media (max-width: 280px) {
+  .cube-d {
+    bottom: -450px;
+    left: 10px;
+  }
+  .Dream {
+    bottom: -350px;
+    left: 65px;
+  }
+  .dream-definition {
+    line-height: 25px;
+    bottom: -30px;
+  }
+  .cube-n {
+    top: -220px;
+    left: 135px;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+  }
+  .Nascent {
+    left: 180px;
+  }
+  .word-nascent {
+    font-size: 1.5rem;
+    left: 5px;
+    bottom: 565px;
+    color: pink;
+  }
+
+  .cube-n .number {
+    font-size: 10px;
+  }
+  .partOfSpeech-nascent {
+    font-size: 1rem;
+  }
+  .nascent-definition {
+    display: none;
+  }
+  .cube-a,
+  .cube-c,
+  .cube-t,
+  .cube-y,
+  .cube-o,
+  .cube-r,
+  .word-ruckus,
+  .word-oracy,
+  .word-yield,
+  .partOfSpeech-Ruckus,
+  .partOfSpeech-oracy,
+  .partOfSpeech-yield,
+  .ruckus-definition,
+  .oracy-definition,
+  .yield-definition {
+    display: none;
+  }
+}

@@ -36,7 +36,7 @@
     5px 5px #410111, 6px 6px #410111, 7px 7px #410111, 8px 8px #150408;
 }
 
-.number {
+.word-number {
   font-size: 1rem;
   position: fixed;
   bottom: -5px;
@@ -57,8 +57,8 @@
     height: 35px;
     width: 35px;
   }
-  .number {
-    font-size: 0.15rem;
+  .word-number {
+    font-size: 0.55rem;
     position: fixed;
     bottom: 0;
     right: 0;

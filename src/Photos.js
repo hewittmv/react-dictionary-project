@@ -8,28 +8,28 @@ export default function Photos() {
         <div className="cube w">
           {" "}
           <span className="letter-w">W</span>
-          <span className="number"> 4</span>{" "}
+          <span className="word-number"> 4</span>{" "}
         </div>
       </div>
       <div className="image-two">
         <div className="cube o">
           {" "}
           <span className="letter-o">O</span>
-          <span className="number"> 1</span>{" "}
+          <span className="word-number"> 1</span>{" "}
         </div>
       </div>
       <div className="image-three">
         <div className="cube r">
           {" "}
           <span className="letter-r">R</span>
-          <span className="number"> 1</span>{" "}
+          <span className="word-number"> 1</span>{" "}
         </div>
       </div>
       <div className="image-four">
         <div className="cube d">
           {" "}
           <span className="letter-d">D</span>
-          <span className="number"> 2</span>{" "}
+          <span className="word-number"> 2</span>{" "}
         </div>
       </div>
     </div>

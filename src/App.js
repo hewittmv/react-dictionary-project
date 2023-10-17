@@ -6,6 +6,25 @@ function App() {
   return (
     <div className="App">
       <div className="container d-flex justify-content-center">
+        <header>
+          <div className="Nascent d-flex  justify-content-center w-100">
+            <div className="cube-n">
+              {" "}
+              N<span className="nascent-number"> 1</span>{" "}
+            </div>
+            <div className="nascent-adj">
+              <span className="word-nascent">
+                <strong>Nascent </strong>
+              </span>{" "}
+              <span className="partOfSpeech-nascent">Adjective</span>
+            </div>
+            <div className="nascent-definition">
+              <span className="speech-marks">"</span> just coming into existence
+              & beginning <br /> to display signs of future potential
+              <span className="speech-marks">"</span>
+            </div>
+          </div>
+        </header>
         <div className="container" id="container-1">
           <main>
             <Search defaultKeyword="autumn" />
@@ -21,34 +40,21 @@ function App() {
           <img src={logo} className="react-logo" width="50px" alt="logo" />
         </div>
         <footer>
-          <div className="Dream d-flex">
+          <div className="Dream d-flex justify-content-center w-100">
             <div className="cube-d">
               {" "}
-              D<span className="number"> 2</span>{" "}
+              D<span className="dream-number"> 2</span>{" "}
             </div>
-            <span className="word-dream">
-              <strong>Dream </strong>
-            </span>
-            <span className="partOfSpeech-dream">Noun</span> <br />
+            <div className="dream-noun">
+              <span className="word-dream">
+                <strong>Dream </strong>
+              </span>{" "}
+              <span className="partOfSpeech-dream">Noun</span>
+            </div>
             <span className="dream-definition">
               <span className="speech-marks">"</span>
               Thoughts, images, sensations <br />
               that occur during sleep
-              <span className="speech-marks">"</span>
-            </span>
-          </div>
-          <div className="Nascent d-flex">
-            <div className="cube-n">
-              {" "}
-              N<span className="number"> 1</span>{" "}
-            </div>
-            <span className="word-nascent">
-              <strong>Nascent </strong>
-            </span>
-            <span className="partOfSpeech-nascent">Adjective</span> <br />
-            <span className="nascent-definition">
-              <span className="speech-marks">"</span> just coming into existence
-              & beginning <br /> to display signs of future potential
               <span className="speech-marks">"</span>
             </span>
           </div>

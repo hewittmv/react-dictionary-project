@@ -20,20 +20,31 @@ a {
   backdrop-filter: blur(5px);
   max-width: 600px;
   padding: 3%;
-  margin-top: 10%;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 10%;
 }
 footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  position: fixed;
   bottom: 0;
   left: 0;
-  width: 100%;
-  height: 15%;
+}
+header {
+  top: 0;
+  left: 0;
 }
 .cube-d,
 .cube-n {
-  position: relative;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
   font-size: 30px;
   transform: rotate(20deg);
   border-style: groove;
@@ -46,23 +57,18 @@ footer {
   box-shadow: 1px 1px #813548, 2px 2px#66001A, 3px 3px #66001a, 4px 4px #410111,
     5px 5px #410111, 6px 6px #410111, 7px 7px #410111, 8px 8px #150408;
 }
-.cube-d,
-.cube-n {
-  margin-top: 7%;
-}
 
-.Dream .number,
-.Nascent .number {
+.dream-number,
+.nascent-number {
   font-size: 0.75rem;
   position: fixed;
   bottom: -5px;
   right: 0;
 }
-.Dream .cube-d,
+.cube-d,
 .word-dream,
 .dream-definition,
-.speech-marks,
-.Nascent .cube-n,
+.cube-n,
 .word-nascent,
 .nascent-definition,
 .speech-marks {
@@ -72,6 +78,59 @@ footer {
 .partOfSpeech-nascent {
   color: yellow;
 }
-.Dream {
-  margin-left: 5%;
+
+.word-dream,
+.word-nascent,
+.partOfSpeech-dream,
+.partOfSpeech-nascent {
+  font-size: 1.75rem;
+  margin-left: 4%;
+  padding: 3px;
+}
+.nascent-definition,
+.dream-definition {
+  padding: 3px;
+}
+.word-nascent,
+.nascent-definition,
+.dream-definition {
+  margin-left: 10px;
+}
+.nascent-adj,
+.dream-noun {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 400px) {
+  .word-dream,
+  .word-nascent,
+  .partOfSpeech-dream,
+  .partOfSpeech-nascent {
+    font-size: 1.25rem;
+  }
+  .nascent-adj,
+  .dream-noun {
+    flex-direction: column;
+  }
+  .partOfSpeech-dream,
+  .partOfSpeech-nascent {
+    padding: 0;
+    margin: 0;
+    line-height: 20px;
+  }
+  .cube-n,
+  .cube-d {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    box-shadow: 1px 1px #813548, 2px 2px#66001A, 3px 3px #66001a,
+      4px 4px #410111, 5px 5px #410111, 6px 6px #150408;
+  }
+  .dream-number,
+  .nascent-number {
+    font-size: 0.5rem;
+    bottom: -3px;
+    right: 0;
+  }
 }

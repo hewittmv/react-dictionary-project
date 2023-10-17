@@ -19,7 +19,7 @@ function App() {
               <span className="partOfSpeech-nascent">Adjective</span>
             </div>
             <div className="nascent-definition d-flex align-items-center">
-              "Just coming into existence & beginning to display signs of future
+              "Just coming into existence & beginning to display future
               potential"
             </div>
           </div>

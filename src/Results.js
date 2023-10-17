@@ -9,7 +9,7 @@ export default function results(props) {
     return (
       <div className="results">
         <div className="row">
-          <div className="col-9">
+          <div className="col-9 g-2 ">
             <div className="wordAndPhonetics">
               <div className="box-one">
                 <h2 className="word text-capitalize">{props.results.word}</h2>
@@ -26,7 +26,7 @@ export default function results(props) {
 
             <Meaning meaning={props.results.meanings} />
           </div>
-          <div className="col-3">
+          <div className="col-3 g-2">
             <Photos />
           </div>
         </div>

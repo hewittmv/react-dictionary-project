@@ -25,3 +25,8 @@
 label {
   color: rgb(238, 153, 42);
 }
+@media (max-width: 280px) {
+  .search-button {
+    padding: 1.5px;
+  }
+}

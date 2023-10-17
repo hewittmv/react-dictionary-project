@@ -39,7 +39,7 @@ export default function Search(props) {
       <div className="container Search">
         <div className="row">
           <form onSubmit={handleSubmit}></form>
-          <div className="col-9">
+          <div className="col-9 g-2">
             <input
               type="Search"
               onChange={handleKeywordChange}
@@ -49,7 +49,7 @@ export default function Search(props) {
             />
             <label htmlFor="DictionaryWordSearch">Dictionary</label>
           </div>
-          <div className="col-3">
+          <div className="col-3 g-2">
             <input
               type="submit"
               id="searchInDictionary"

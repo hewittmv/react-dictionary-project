@@ -18,10 +18,9 @@ function App() {
               </span>{" "}
               <span className="partOfSpeech-nascent">Adjective</span>
             </div>
-            <div className="nascent-definition">
-              <span className="speech-marks">"</span> just coming into existence
-              & beginning <br /> to display signs of future potential
-              <span className="speech-marks">"</span>
+            <div className="nascent-definition d-flex align-items-center">
+              "Just coming into existence & beginning to display signs of future
+              potential"
             </div>
           </div>
         </header>
@@ -51,12 +50,9 @@ function App() {
               </span>{" "}
               <span className="partOfSpeech-dream">Noun</span>
             </div>
-            <span className="dream-definition">
-              <span className="speech-marks">"</span>
-              Thoughts, images, sensations <br />
-              that occur during sleep
-              <span className="speech-marks">"</span>
-            </span>
+            <div className="dream-definition d-flex align-items-center">
+              "Thoughts, images, sensations that occur during sleep"
+            </div>
           </div>
         </footer>
       </div>

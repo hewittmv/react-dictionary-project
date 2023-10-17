@@ -156,3 +156,17 @@ header {
     right: 0;
   }
 }
+@media (max-width: 280px) {
+  #container-1 {
+    margin-top: 30%;
+  }
+  .Nascent {
+    margin-top: 5%;
+    margin-right: 5%;
+  }
+  .nascent-definition {
+    text-align: center;
+    margin-left: 0;
+    font-size: 0.8rem;
+  }
+}

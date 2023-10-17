@@ -45,11 +45,11 @@ export default function Search(props) {
               onChange={handleKeywordChange}
               className="input"
               id="DictionaryWordSearch"
-              placeholder="Enter a word"
+              placeholder="Type any word"
             />
-            <label htmlFor="DictionaryWordSearch">Dictionary</label>
+            <label htmlFor="DictionaryWordSearch"></label>
           </div>
-          <div className="col-3 g-2">
+          <div className="col-3 g-2 d-flex justify-content-center">
             <input
               type="submit"
               id="searchInDictionary"

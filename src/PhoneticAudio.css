@@ -10,3 +10,8 @@
     font-size: 1.25rem;
   }
 }
+@media (max-width: 280px) {
+  .audio {
+    font-size: 1rem;
+  }
+}

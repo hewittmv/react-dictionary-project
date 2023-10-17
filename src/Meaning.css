@@ -17,3 +17,12 @@
     font-size: 1.25rem;
   }
 }
+@media (max-width: 280px) {
+  .meaning-partOfSpeech,
+  .definition-example-synonym {
+    font-size: 0.9rem;
+  }
+  .meaning {
+    padding-left: 5%;
+  }
+}

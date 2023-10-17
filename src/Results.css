@@ -13,3 +13,10 @@
     margin-top: 2%;
   }
 }
+@media (max-width: 280px) {
+  .word,
+  .phonetics {
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+}

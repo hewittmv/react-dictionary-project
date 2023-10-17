@@ -12,6 +12,9 @@
 .meaning h2 {
   text-decoration: underline;
 }
+.Definition {
+  text-shadow: 1px 0.5px rgb(245, 147, 20);
+}
 @media (max-width: 414px) {
   .meaning-partOfSpeech {
     font-size: 1.25rem;

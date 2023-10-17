@@ -1,11 +1,12 @@
 import React from "react";
+import "./Synonym.css";
 
 export default function Synonym(props) {
   if (props.synonym) {
     return (
       <div className="synonym text-capitalize">
         {" "}
-        <em>Synonym:</em>
+        <span className="Synonym">Synonym:</span>
         <ul>
           {props.synonym.map(function (synonym, index) {
             return <li key={index}>{synonym}</li>;

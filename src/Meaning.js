@@ -15,7 +15,8 @@ export default function Meaning(props) {
                   {meaning.partOfSpeech}
                 </h2>
                 <div className="definition-example-synonym">
-                  <em>Definition:</em> {meaning.definition} <br />
+                  <span className="Definition"> Definition:</span>{" "}
+                  {meaning.definition} <br />
                   <Example example={meaning.example} />
                   <Synonym synonym={meaning.synonyms} />
                 </div>

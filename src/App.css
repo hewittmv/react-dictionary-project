@@ -168,5 +168,6 @@ header {
     text-align: center;
     margin-left: 0;
     font-size: 0.8rem;
+    text-shadow: 1px 1px 2px rgb(31, 5, 9);
   }
 }

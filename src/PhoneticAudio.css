@@ -5,3 +5,8 @@
 .audio:hover {
   filter: drop-shadow(0 0 0.3rem orange);
 }
+@media (max-width: 414px) {
+  .audio {
+    font-size: 1.25rem;
+  }
+}

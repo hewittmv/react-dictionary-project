@@ -1,21 +1,15 @@
-.results {
-  position: relative;
-}
 .wordAndPhonetics {
   margin-top: 2%;
   background-color: #f6f4f2;
   border-radius: 15px;
-  padding-left: 2%;
   border-style: outset;
   border-color: brown;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
 }
-.box-one,
-.box-two,
-.box-three {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+@media (max-width: 414px) {
+  .word,
+  .phonetics {
+    font-size: 1.25rem;
+    margin-top: 2%;
+  }
 }

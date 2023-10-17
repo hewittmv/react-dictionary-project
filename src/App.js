@@ -8,7 +8,7 @@ function App() {
       <div className="container d-flex justify-content-center">
         <header>
           <div className="Nascent d-flex  justify-content-center w-100">
-            <div className="cube-n">
+            <div className="cube-n mt-2">
               {" "}
               N<span className="nascent-number"> 1</span>{" "}
             </div>

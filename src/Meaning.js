@@ -11,7 +11,9 @@ export default function Meaning(props) {
           if (index < 5) {
             return (
               <div key={index}>
-                <h2 className="text-capitalize">{meaning.partOfSpeech}</h2>
+                <h2 className="text-capitalize meaning-partOfSpeech">
+                  {meaning.partOfSpeech}
+                </h2>
                 <div className="definition-example-synonym">
                   <em>Definition:</em> {meaning.definition} <br />
                   <Example example={meaning.example} />

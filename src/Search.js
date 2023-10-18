@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Search.css";
 import axios from "axios";
 import Results from "./Results";
-import Photos from "./Photos";
 
 export default function Search(props) {
   let [keyword, SetKeyword] = useState(props.defaultKeyword);
@@ -66,8 +65,7 @@ export default function Search(props) {
           </div>
         </div>
 
-        <Results results={results} results1={results1} />
-        <Photos photos={PhotoData} />
+        <Results results={results} results1={results1} photoData={PhotoData} />
       </div>
     );
   } else {

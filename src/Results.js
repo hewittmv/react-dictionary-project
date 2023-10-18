@@ -25,7 +25,7 @@ export default function results(props) {
             <Meaning meaning={props.results.meanings} />
           </div>
           <div className="col-3 g-2">
-            <Photos />
+            <Photos photos={props.photoData.photos} />
           </div>
         </div>
       </div>

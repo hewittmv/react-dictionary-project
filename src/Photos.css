@@ -5,8 +5,27 @@
   align-items: center;
   position: relative;
 }
+.photos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .image-one {
   margin-top: 10%;
+}
+.photos-data {
+  margin: 0;
+  padding: 0;
+}
+.photo {
+  border-style: solid;
+  border-color: #6f3003;
+  border-radius: 10px;
+}
+img {
+  max-width: 80%;
+  height: auto;
 }
 .image-one,
 .image-two,

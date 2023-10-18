@@ -7,6 +7,7 @@ export default function Synonym(props) {
       <div className="synonym text-capitalize">
         {" "}
         <span className="Synonym">Synonym:</span>
+        <br />
         <ul>
           {props.synonym.map(function (synonym, index) {
             return (

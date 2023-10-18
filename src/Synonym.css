@@ -1,12 +1,15 @@
 .Synonym {
   text-shadow: 1px 0.5px orange;
 }
-.synonym {
-  display: flex;
-}
+
 .synonym-list {
   list-style: none;
 }
 .synonym ul {
   padding-left: 5px;
+}
+.synonym li {
+  display: inline-flex;
+  padding: 0.5%;
+  margin: 0.5%;
 }

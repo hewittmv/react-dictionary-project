@@ -26,7 +26,7 @@ function App() {
         </header>
         <div className="container" id="container-1">
           <main>
-            <Search defaultKeyword="autumn" />
+            <Search defaultKeyword="firework" />
           </main>
           <a
             className="github-link"

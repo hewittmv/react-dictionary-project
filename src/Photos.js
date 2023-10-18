@@ -2,10 +2,10 @@ import React from "react";
 import "./Photos.css";
 
 export default function Photos(props) {
-  if (props.photos) {
+  if (props.photoGallery) {
     return (
       <div className="photos-data">
-        {props.photos.map(function (photo, index) {
+        {props.photoGallery.map(function (photo, index) {
           if (index < 6) {
             return (
               <div className="photos" key={index}>

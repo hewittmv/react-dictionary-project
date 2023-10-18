@@ -18,14 +18,16 @@
   margin: 0;
   padding: 0;
 }
+img {
+  max-width: 95%;
+}
 .photo {
   border-style: solid;
   border-color: #ae5413;
   border-radius: 10px;
+  margin-bottom: 5%;
 }
-img {
-  margin: 2%;
-}
+
 .image-one,
 .image-two,
 .image-three,

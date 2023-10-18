@@ -6,10 +6,10 @@ export default function Photos(props) {
     return (
       <div className="photos-data">
         {props.photos.map(function (photo, index) {
-          if (index < 4) {
+          if (index < 6) {
             return (
               <div className="photos" key={index}>
-                <div className="photo">
+                <div className="photo mt-2">
                   <a
                     href={photo.src.original}
                     target="_blank"
@@ -19,7 +19,7 @@ export default function Photos(props) {
                     <img
                       src={photo.src.landscape}
                       alt={photo.alt}
-                      className="img-fluid rounded"
+                      className="rounded"
                     />
                   </a>
                 </div>

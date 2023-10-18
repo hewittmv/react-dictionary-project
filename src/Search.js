@@ -2,18 +2,23 @@ import React, { useState } from "react";
 import "./Search.css";
 import axios from "axios";
 import Results from "./Results";
+import Photos from "./Photos";
 
 export default function Search(props) {
   let [keyword, SetKeyword] = useState(props.defaultKeyword);
   let [results, setResults] = useState(null);
   let [results1, setResults1] = useState(null);
   let [loaded, setLoaded] = useState(false);
+  let [PhotoData, setPhotoData] = useState(null);
 
   function handleResponse(response) {
     setResults(response.data);
   }
   function handleAudioResponse(response) {
     setResults1(response.data[0]);
+  }
+  function handlePhotoResponse(response) {
+    setPhotoData(response.data);
   }
 
   function Search() {
@@ -22,6 +27,8 @@ export default function Search(props) {
     axios.get(apiUrl).then(handleResponse);
     let audioUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(audioUrl).then(handleAudioResponse);
+    let photoUrl = `https://api.shecodes.io/images/v1/search?query=${keyword}&key=${apiKey}`;
+    axios.get(photoUrl).then(handlePhotoResponse);
   }
   function handleKeywordChange(event) {
     SetKeyword(event.target.value);
@@ -60,6 +67,7 @@ export default function Search(props) {
         </div>
 
         <Results results={results} results1={results1} />
+        <Photos photos={PhotoData} />
       </div>
     );
   } else {

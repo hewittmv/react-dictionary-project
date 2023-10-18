@@ -11,6 +11,7 @@
 }
 .meaning h2 {
   text-decoration: underline;
+  font-size: 25px;
 }
 .Definition {
   text-shadow: 1px 0.5px rgb(245, 147, 20);

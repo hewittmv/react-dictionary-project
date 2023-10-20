@@ -5,3 +5,124 @@ footer {
   bottom: 0;
   z-index: 0;
 }
+.cube-d {
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  transform: rotate(20deg);
+  border-style: groove;
+  border-color: brown;
+  background-color: #650015;
+  color: white;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  box-shadow: 1px 1px #813548, 2px 2px#66001A, 3px 3px #66001a, 4px 4px #410111,
+    5px 5px #410111, 6px 6px #410111, 7px 7px #410111, 8px 8px #150408;
+}
+.Dream {
+  margin-top: 1.5%;
+  margin-left: 2%;
+  margin-right: 1%;
+}
+.dream-number {
+  font-size: 0.75rem;
+  position: fixed;
+  bottom: -5px;
+  right: 0;
+}
+.cube-d,
+.word-dream,
+.dream-definition {
+  color: white;
+}
+.partOfSpeech-dream {
+  color: yellow;
+}
+.word-dream,
+.partOfSpeech-dream {
+  font-size: 1.75rem;
+  margin-left: 3%;
+  padding: 3px;
+  text-shadow: 1px 1px 2px rgb(31, 5, 9);
+}
+.dream-definition {
+  padding: 3px;
+  line-height: 18px;
+  font-size: 1.25rem;
+  text-shadow: 1px 1px 2px rgb(31, 5, 9);
+  margin-left: 10px;
+}
+.dream-noun {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 414px) {
+  .word-dream,
+  .partOfSpeech-dream {
+    font-size: 1.25rem;
+  }
+  .dream-noun {
+    flex-direction: column;
+    line-height: 15px;
+  }
+  .partOfSpeech-dream {
+    padding: 0;
+    margin: 0;
+    line-height: 20px;
+  }
+
+  .dream-definition {
+    max-width: 55%;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .cube-d {
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 1.25rem;
+    box-shadow: 1px 1px #813548, 2px 2px#66001A, 3px 3px #66001a,
+      4px 4px #410111, 5px 5px #410111, 6px 6px #150408;
+  }
+  .dream-number {
+    font-size: 0.5rem;
+    bottom: -3px;
+    right: 0;
+  }
+}
+@media (min-width: 415px) and (max-width: 540px) {
+  .dream-definition {
+    font-size: 1.25rem;
+    max-width: 45%;
+    text-align: center;
+  }
+  .cube-d {
+    margin-bottom: 6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 912px) {
+  .dream-definition {
+    font-size: 1.8rem;
+    max-width: 50%;
+    line-height: 30px;
+    text-align: center;
+  }
+  .cube-d {
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    margin-bottom: 5%;
+    margin-right: 3%;
+  }
+  .dream-number {
+    font-size: 1rem;
+  }
+  .word-dream,
+  .partOfSpeech-dream {
+    font-size: 2.5rem;
+  }
+}

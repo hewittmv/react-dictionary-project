@@ -24,11 +24,13 @@
   }
 }
 @media (max-width: 280px) {
-  .meaning-partOfSpeech,
   .definition-example-synonym {
     font-size: 0.9rem;
   }
   .meaning {
     padding-left: 5%;
+  }
+  .meaning h2 {
+    font-size: 1.2rem;
   }
 }

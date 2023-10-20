@@ -50,7 +50,7 @@ export default function Search(props) {
                   onChange={handleKeywordChange}
                   className="input"
                   id="DictionaryWordSearch"
-                  placeholder="Type any word"
+                  placeholder="Search Dictionary"
                 />
                 <label htmlFor="DictionaryWordSearch"></label>
               </div>

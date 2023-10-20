@@ -17,10 +17,11 @@ a {
   border-color: #ff7b19;
   border-width: 1.5px;
   backdrop-filter: blur(5px);
-  max-width: 750px;
+  max-width: 800px;
   padding: 3%;
   margin-top: 12%;
-  margin-bottom: 8%;
+  margin-bottom: 12%;
+
   z-index: 1;
 }
 
@@ -97,8 +98,13 @@ a {
   align-items: center;
 }
 @media (max-width: 414px) {
+  .App {
+    background-position: center;
+  }
+
   #container-1 {
     margin-top: 25%;
+    margin-bottom: 25%;
     max-width: 395px;
   }
   .word-dream,

@@ -4,3 +4,8 @@
 .Example {
   text-shadow: 1px 0.5px rgb(245, 147, 20);
 }
+@media (max-width: 280px) {
+  .example {
+    font-size: 0.9rem;
+  }
+}

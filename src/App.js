@@ -1,29 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Search from "./Search";
+import Header from "./Header";
 
 function App() {
   return (
     <div className="App">
       <div className="container d-flex justify-content-center">
-        <header>
-          <div className="Nascent d-flex  justify-content-center w-100">
-            <div className="cube-n mt-2">
-              {" "}
-              N<span className="nascent-number"> 1</span>{" "}
-            </div>
-            <div className="nascent-adj">
-              <span className="word-nascent">
-                <strong>Nascent </strong>
-              </span>{" "}
-              <span className="partOfSpeech-nascent">Adjective</span>
-            </div>
-            <div className="nascent-definition d-flex align-items-center">
-              "Just coming into existence & beginning to display future
-              potential"
-            </div>
-          </div>
-        </header>
+        <Header />
         <div className="container" id="container-1">
           <main>
             <Search defaultKeyword="firework" />

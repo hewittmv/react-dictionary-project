@@ -7,7 +7,6 @@ export default function Search(props) {
   let [keyword, SetKeyword] = useState(props.defaultKeyword);
   let [results, setResults] = useState(null);
   let [results1, setResults1] = useState(null);
-  let [loaded, setLoaded] = useState(false);
   let [PhotoData, setPhotoData] = useState(null);
 
   function handleResponse(response) {
@@ -37,31 +36,32 @@ export default function Search(props) {
     Search();
   }
   function Load() {
-    setLoaded(true);
     Search();
   }
-  if (loaded) {
+  if (results) {
     return (
       <div className="container Search">
         <div className="row">
           <form onSubmit={handleSubmit}>
-            <div className="col-9 g-2">
-              <input
-                type="Search"
-                onChange={handleKeywordChange}
-                className="input"
-                id="DictionaryWordSearch"
-                placeholder="Type any word"
-              />
-              <label htmlFor="DictionaryWordSearch"></label>
-            </div>
-            <div className="col-3 g-2 d-flex justify-content-center">
-              <input
-                type="submit"
-                id="searchInDictionary"
-                value="Search"
-                className="search-button"
-              />
+            <div className="row">
+              <div className="col-9 g-2">
+                <input
+                  type="Search"
+                  onChange={handleKeywordChange}
+                  className="input"
+                  id="DictionaryWordSearch"
+                  placeholder="Type any word"
+                />
+                <label htmlFor="DictionaryWordSearch"></label>
+              </div>
+              <div className="col-3 g-2">
+                <input
+                  type="submit"
+                  id="searchInDictionary"
+                  value="Search"
+                  className="search-button"
+                />
+              </div>
             </div>
           </form>
         </div>

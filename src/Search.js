@@ -44,25 +44,26 @@ export default function Search(props) {
     return (
       <div className="container Search">
         <div className="row">
-          <form onSubmit={handleSubmit}></form>
-          <div className="col-9 g-2">
-            <input
-              type="Search"
-              onChange={handleKeywordChange}
-              className="input"
-              id="DictionaryWordSearch"
-              placeholder="Type any word"
-            />
-            <label htmlFor="DictionaryWordSearch"></label>
-          </div>
-          <div className="col-3 g-2 d-flex justify-content-center">
-            <input
-              type="submit"
-              id="searchInDictionary"
-              value="Search"
-              className="search-button"
-            />
-          </div>
+          <form onSubmit={handleSubmit}>
+            <div className="col-9 g-2">
+              <input
+                type="Search"
+                onChange={handleKeywordChange}
+                className="input"
+                id="DictionaryWordSearch"
+                placeholder="Type any word"
+              />
+              <label htmlFor="DictionaryWordSearch"></label>
+            </div>
+            <div className="col-3 g-2 d-flex justify-content-center">
+              <input
+                type="submit"
+                id="searchInDictionary"
+                value="Search"
+                className="search-button"
+              />
+            </div>
+          </form>
         </div>
 
         <Results results={results} results1={results1} photoData={PhotoData} />

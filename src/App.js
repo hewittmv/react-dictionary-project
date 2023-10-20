@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Search from "./Search";
 import Header from "./Header";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -22,23 +23,7 @@ function App() {
           </a>
           <img src={logo} className="react-logo" width="50px" alt="logo" />
         </div>
-        <footer>
-          <div className="Dream d-flex justify-content-center w-100">
-            <div className="cube-d">
-              {" "}
-              D<span className="dream-number"> 2</span>{" "}
-            </div>
-            <div className="dream-noun">
-              <span className="word-dream">
-                <strong>Dream </strong>
-              </span>{" "}
-              <span className="partOfSpeech-dream">Noun</span>
-            </div>
-            <div className="dream-definition d-flex align-items-center">
-              "Thoughts, images, sensations that occur during sleep"
-            </div>
-          </div>
-        </footer>
+        <Footer />
       </div>
     </div>
   );

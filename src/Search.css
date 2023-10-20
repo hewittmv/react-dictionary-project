@@ -27,7 +27,6 @@
   box-shadow: 0px 1px 1px #6f3003, 0px 2px 2px #964811, 0px 3px 3px #ce6a22;
 }
 .search-button:hover {
-  border-color: #47260e;
   background: linear-gradient(
     17deg,
     rgba(249, 162, 16, 1) 22%,

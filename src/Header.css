@@ -141,3 +141,30 @@ header {
     font-size: 2.5rem;
   }
 }
+@media (min-width: 915px) {
+  .nascent-definition {
+    font-size: 1.8rem;
+    max-width: 30%;
+    line-height: 30px;
+    text-align: center;
+  }
+  .word-nascent,
+  .partOfSpeech-nascent {
+    font-size: 2.5rem;
+  }
+  .cube-n {
+    margin-right: 1%;
+    margin-bottom: 1%;
+    width: 50px;
+    height: 50px;
+    font-size: 2.4rem;
+    box-shadow: 1px 1px #813548, 2px 2px#66001A, 3px 3px #66001a,
+      4px 4px #410111, 5px 5px #410111, 6px 6px #410111, 7px 7px #410111,
+      8px 8px #150408;
+  }
+  .nascent-number {
+    font-size: 1rem;
+    bottom: -3px;
+    right: 0;
+  }
+}

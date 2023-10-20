@@ -13,7 +13,7 @@ export default function PhoneticAudio(props) {
                   href={phonetics.audio}
                   target="_blank"
                   rel="noreferrer"
-                  className="audio"
+                  className="audio p-0 m-0"
                   alt="Click to listen to the word"
                 >
                   🔊

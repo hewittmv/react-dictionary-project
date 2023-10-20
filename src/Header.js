@@ -3,7 +3,7 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <header>
+    <header className="w-100 d-flex">
       <div className="Nascent d-flex  justify-content-center w-100">
         <div className="cube-n mt-2">
           {" "}

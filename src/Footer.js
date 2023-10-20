@@ -3,8 +3,8 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
-    <footer>
-      <div className="Dream d-flex justify-content-center w-100">
+    <footer className="d-flex w-100">
+      <div className="Dream d-flex justify-content-center align-items-center w-100">
         <div className="cube-d">
           {" "}
           D<span className="dream-number"> 2</span>{" "}

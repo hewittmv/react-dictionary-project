@@ -7,7 +7,7 @@ import Footer from "./Footer";
 function App() {
   return (
     <div className="App">
-      <div className="container d-flex justify-content-center">
+      <div className="container d-flex">
         <Header />
         <div className="container" id="container-1">
           <main>

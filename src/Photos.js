@@ -6,7 +6,7 @@ export default function Photos(props) {
     return (
       <div className="photos-data">
         {props.photoGallery.map(function (photo, index) {
-          if (index < 6) {
+          if (index < 9) {
             return (
               <div className="photos" key={index}>
                 <div className="photo mt-2">

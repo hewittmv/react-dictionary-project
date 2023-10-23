@@ -45,7 +45,7 @@ header {
 }
 .word-nascent,
 .partOfSpeech-nascent {
-  font-size: 1.75rem;
+  font-size: 1.4rem;
   margin-left: 3%;
   padding: 3px;
   text-shadow: 1px 1px 2px rgb(31, 5, 9);
@@ -53,7 +53,7 @@ header {
 .nascent-definition {
   padding: 3px;
   line-height: 18px;
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-shadow: 1px 1px 2px rgb(31, 5, 9);
 }
 .word-nascent,
@@ -66,15 +66,24 @@ header {
   align-items: center;
 }
 @media (max-width: 280px) {
+  .cube-n {
+    height: 20px;
+    width: 20px;
+    font-size: 15px;
+  }
   .Nascent {
     margin-top: 5%;
-    margin-right: 5%;
+    margin-right: 3%;
+  }
+  .word-nascent,
+  .partOfSpeech-nascent {
+    font-size: 1rem;
   }
   .nascent-definition {
     text-align: center;
     margin-left: 0;
-    font-size: 0.8rem;
-    line-height: 18px;
+    font-size: 0.9rem;
+    line-height: 16px;
   }
 }
 @media (max-width: 414px) {

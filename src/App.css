@@ -22,8 +22,8 @@ a {
   backdrop-filter: blur(5px);
   max-width: 800px;
   padding: 3%;
-  margin-top: 12%;
-  margin-bottom: 12%;
+  margin-top: 8%;
+  margin-bottom: 8%;
 
   z-index: 1;
 }

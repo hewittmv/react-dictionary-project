@@ -60,17 +60,17 @@
   align-items: center;
 }
 @media (max-width: 280px) {
-  .dream-noun {
-    flex-direction: column;
-    line-height: 10px;
-  }
   .word-dream,
   .partOfSpeech-dream,
   .dream-definition {
     font-size: 0.8rem;
   }
+  .dream-noun {
+    line-height: 13px;
+    flex-direction: column;
+  }
   .dream-definition {
-    max-width: 40%;
+    max-width: 55%;
   }
   .cube-d {
     font-size: 18px;
@@ -81,5 +81,15 @@
   }
   .dream-number {
     font-size: 0.6rem;
+  }
+}
+@media (min-width: 300px) and (max-width: 750px) {
+  .dream-noun {
+    line-height: 20px;
+    flex-direction: column;
+  }
+  .dream-definition {
+    max-width: 50%;
+    line-height: 20px;
   }
 }

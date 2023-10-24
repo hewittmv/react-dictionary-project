@@ -61,17 +61,21 @@
   align-items: center;
 }
 @media (max-width: 280px) {
-  .nascent-adj {
-    flex-direction: column;
-    line-height: 10px;
+  .Nascent-wrapper {
+    top: 1.5%;
   }
   .word-nascent,
   .partOfSpeech-nascent,
   .nascent-definition {
     font-size: 0.8rem;
   }
+  .nascent-adj {
+    flex-direction: column;
+    line-height: 10px;
+  }
   .nascent-definition {
-    max-width: 40%;
+    line-height: 13px;
+    max-width: 45%;
   }
   .cube-n {
     font-size: 18px;
@@ -82,5 +86,21 @@
   }
   .nascent-number {
     font-size: 0.6rem;
+  }
+}
+@media (min-width: 300px) and (max-width: 750px) {
+  .nascent-adj {
+    line-height: 15px;
+    flex-direction: column;
+  }
+  .nascent-definition {
+    max-width: 50%;
+    line-height: 17px;
+  }
+}
+@media (min-width: 751px) {
+  .nascent-definition {
+    max-width: 55%;
+    line-height: 25px;
   }
 }

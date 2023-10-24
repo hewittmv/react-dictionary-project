@@ -1,5 +1,5 @@
 .App {
-  height: 100%;
+  min-height: 100vh;
   font-family: "Bellefair", serif;
   background-image: url(/public/books.jpg);
   background-repeat: no-repeat;
@@ -24,7 +24,6 @@ a {
   padding: 3%;
   margin-top: 8%;
   margin-bottom: 8%;
-
   z-index: 1;
 }
 @media (max-width: 280px) {

@@ -8,9 +8,11 @@ export default function Search(props) {
   let [results, setResults] = useState(null);
   let [results1, setResults1] = useState(null);
   let [PhotoData, setPhotoData] = useState(null);
+  let [loading, setLoading] = useState(false);
 
   function handleResponse(response) {
     setResults(response.data);
+    setLoading(false);
   }
   function handleAudioResponse(response) {
     setResults1(response.data[0]);
@@ -36,7 +38,12 @@ export default function Search(props) {
     Search();
   }
   function Load() {
-    Search();
+    if (!loading) {
+      setLoading(true);
+    }
+    if (!loading) {
+      Search();
+    }
   }
   if (results) {
     return (
@@ -71,5 +78,6 @@ export default function Search(props) {
     );
   } else {
     Load();
+    return "Loading...";
   }
 }
